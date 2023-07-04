@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    background-color: #f8f9fa; /* Define a cor de fundo */
+    color: #333; /* Define a cor do texto */
+}
+
+
+header {
+    background-color: #103E13; /* Define a cor de fundo do cabeçalho */
+    padding: 5px; /* Define o preenchimento interno do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    margin-left: 100px ; /* Centraliza o cabeçalho na página */
+    margin-right: 100px ; /* Centraliza o cabeçalho na página */
+}
+
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+    display: flex; /* Permite que a lista seja exibida como uma linha horizontal */
+    justify-content: space-around; /* Distribui o espaço entre os itens da lista */
+}
+
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Define uma margem horizontal entre os itens da lista */
+}
+
+
+a {
+    color: #f8f9fa; /* Define a cor dos links */
+}
+
+
+section {
+    margin: 20px 0; /* Define uma margem externa nas seções */
+}
+
+
+h1, h2 {
+    color: #333; /* Define a cor dos títulos */
+}
+
+
+#home {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "home" */
+}
+
+
+
+#tema1 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#tema2 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#tema3 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#tema4 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#tema5 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#tema6 {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+}
+#titulo{
+    text-align: center;
+}
+.caixa {
+
+    margin-top: 20px ;
+    border: 1px solid #333; /* Define uma borda sólida de 1 pixel com a cor desejada */
+    padding: 10px; /* Adiciona um espaçamento interno para afastar o texto da borda */
+    display: inline-block; /* Permite que a caixa se ajuste ao conteúdo e fique em linha */
+    margin-left: 250px ; /* Centraliza o cabeçalho na página */
+    margin-right: 250px ; /* Centraliza o cabeçalho na página */
+
+
+}
