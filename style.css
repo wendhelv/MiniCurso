@@ -7,12 +7,16 @@ body {
 
 
 header {
-    background-color: #103E13; /* Define a cor de fundo do cabeçalho */
-    padding: 5px; /* Define o preenchimento interno do cabeçalho */
-    text-align: center; /* Centraliza o conteúdo do cabeçalho */
-    margin-left: 100px ; /* Centraliza o cabeçalho na página */
-    margin-right: 100px ; /* Centraliza o cabeçalho na página */
+    background-color: #103E13;
+    padding: 5px;
+    text-align: center;
+    position: fixed; /* Faz com que o cabeçalho fique fixo */
+    top: 0; /* Posiciona o cabeçalho no topo da tela */
+    left: 10%; /* Posiciona o cabeçalho à esquerda da tela */
+    right: 10%; /* Posiciona o cabeçalho à direita da tela */
+    z-index: 1000; /* Certifica-se de que o cabeçalho estará sempre no topo dos outros elementos */
 }
+
 
 
 nav ul {
@@ -46,31 +50,32 @@ h1, h2 {
 
 #home {
     text-align: center; /* Centraliza o conteúdo do elemento com o id "home" */
+    margin-left: 100px ; /* Centraliza o cabeçalho na página */
+    margin-right: 100px ; /* Centraliza o cabeçalho na página */
+    
 }
 
-
-
-#tema1 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
-#tema2 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
-#tema3 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
-#tema4 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
-#tema5 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
-#tema6 {
-    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
-}
 #titulo{
-    text-align: center;
+    background-color: #103E13; /* Define a cor de fundo do cabeçalho */
+    color: #f8f9fa; /* Define a cor dos links */
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "home" */
+    border: 1px solid #333; /* Define uma borda sólida de 1 pixel com a cor desejada */
+    padding: 10px; /* Adiciona um espaçamento interno para afastar o texto da borda */
+    margin-left: 600px ; /* Centraliza o cabeçalho na página */
+    margin-right: 600px ; /* Centraliza o cabeçalho na página */
+    margin-top: 100px;
+
 }
+
+
+.tema {
+    text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
+    margin-left: 100px ; /* Centraliza o cabeçalho na página */
+    margin-right: 100px ; /* Centraliza o cabeçalho na página */
+    margin-top: 60px;
+}
+
+
 .caixa {
 
     margin-top: 20px ;
