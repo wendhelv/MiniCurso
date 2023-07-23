@@ -87,3 +87,7 @@ h1, h2 {
 
 
 }
+
+.container{
+    display: flex;
+}
