@@ -41,6 +41,7 @@ a {
 
 section {
     margin: 20px 0; /* Define uma margem externa nas seções */
+    padding: 30px;
 }
 
 
@@ -95,14 +96,23 @@ h1, h2 {
     display: flex;
     margin-left: 250px ; /* Centraliza o cabeçalho na página */
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
+    background-color: #1b4f8f;
+    color: #eee;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.container h2{
+    color: #fff;
 }
 
 .ilustracao img{
     border-radius: 5px;
     width: 600px;
     height: 400px;
+    
 }
 
 .conteudo{
-    margin-right: 50px ; /* Centraliza o cabeçalho na página */
+    margin-right: 50px; /* Centraliza o cabeçalho na página */
 }
