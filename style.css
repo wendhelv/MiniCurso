@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif; /* Define a fonte do texto */
-    background-color: #969595; /* Define a cor de fundo */
+    background-color: #DCDCDC; /* Define a cor de fundo */
     color: #333; /* Define a cor do texto */
 }
 
@@ -75,6 +75,7 @@ h1, h2 {
     margin-left: 100px ; /* Centraliza o cabeçalho na página */
     margin-right: 100px ; /* Centraliza o cabeçalho na página */
     margin-top: 60px;
+    
 }
 
 
@@ -92,4 +93,8 @@ h1, h2 {
 
 .container{
     display: flex;
+}
+
+.ilustracao{
+    border-radius: 5px;
 }
