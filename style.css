@@ -93,10 +93,16 @@ h1, h2 {
 
 .container{
     display: flex;
+    margin-left: 250px ; /* Centraliza o cabeçalho na página */
+    margin-right: 250px ; /* Centraliza o cabeçalho na página */
 }
 
 .ilustracao img{
     border-radius: 5px;
     width: 600px;
     height: 400px;
+}
+
+.conteudo{
+    margin-right: 50px ; /* Centraliza o cabeçalho na página */
 }
