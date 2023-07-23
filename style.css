@@ -97,9 +97,12 @@ h1, h2 {
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
 }
 
-.ilustracao{
+.ilustracao img{
     border-radius: 5px;
+    width: 600px;
+    height: 400px;
 }
+
 .conteudo{
     margin-right: 50px ; /* Centraliza o cabeçalho na página */
 }
