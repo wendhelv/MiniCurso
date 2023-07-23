@@ -1,13 +1,14 @@
 
 body {
     font-family: Arial, sans-serif; /* Define a fonte do texto */
-    background-color: #f8f9fa; /* Define a cor de fundo */
+    background-color: #969595; /* Define a cor de fundo */
     color: #333; /* Define a cor do texto */
 }
 
 
 header {
-    background-color: #103E13;
+    background-color: #006414;
+    border-radius: 5px;
     padding: 5px;
     text-align: center;
     position: fixed; /* Faz com que o cabeçalho fique fixo */
@@ -64,6 +65,7 @@ h1, h2 {
     margin-left: 600px ; /* Centraliza o cabeçalho na página */
     margin-right: 600px ; /* Centraliza o cabeçalho na página */
     margin-top: 100px;
+    border-radius: 5px;
 
 }
 
@@ -84,7 +86,7 @@ h1, h2 {
     display: inline-block; /* Permite que a caixa se ajuste ao conteúdo e fique em linha */
     margin-left: 250px ; /* Centraliza o cabeçalho na página */
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
-
+    border-radius: 5px;
 
 }
 
