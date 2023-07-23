@@ -95,6 +95,8 @@ h1, h2 {
     display: flex;
 }
 
-.ilustracao{
+.ilustracao img{
     border-radius: 5px;
+    width: 600px;
+    height: 400px;
 }
