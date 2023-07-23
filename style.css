@@ -89,7 +89,12 @@ h1, h2 {
     margin-left: 250px ; /* Centraliza o cabeçalho na página */
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
     border-radius: 5px;
+    background-color: #1b4f8f;
+    color: #eee;
+}
 
+.caixa h2{
+    color: #fff;
 }
 
 .container{
