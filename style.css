@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif; /* Define a fonte do texto */
     background-color: #DCDCDC; /* Define a cor de fundo */
@@ -7,10 +6,10 @@ body {
 
 
 header {
-    background-color: #006414;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
+    background-color: #006414; /*Define a cor de fundo*/
+    border-radius: 5px; /*Define o raio da borda*/
+    padding: 5px; /*Define o preenchimento*/
+    text-align: center; /*Define a posição do texto*/
     position: fixed; /* Faz com que o cabeçalho fique fixo */
     top: 0; /* Posiciona o cabeçalho no topo da tela */
     left: 10%; /* Posiciona o cabeçalho à esquerda da tela */
@@ -41,7 +40,7 @@ a {
 
 section {
     margin: 20px 0; /* Define uma margem externa nas seções */
-    padding: 30px;
+    padding: 30px; /*Define o preenchimento*/
 }
 
 
@@ -65,8 +64,8 @@ h1, h2 {
     padding: 10px; /* Adiciona um espaçamento interno para afastar o texto da borda */
     margin-left: 600px ; /* Centraliza o cabeçalho na página */
     margin-right: 600px ; /* Centraliza o cabeçalho na página */
-    margin-top: 100px;
-    border-radius: 5px;
+    margin-top: 100px; /*Define o tamanho da margem na parte de cima*/
+    border-radius: 5px; /*Define o raio da borda*/
 
 }
 
@@ -75,36 +74,36 @@ h1, h2 {
     text-align: center; /* Centraliza o conteúdo do elemento com o id "tema1" */
     margin-left: 100px ; /* Centraliza o cabeçalho na página */
     margin-right: 100px ; /* Centraliza o cabeçalho na página */
-    margin-top: 60px;
+    margin-top: 60px; /*Define o tamanho da margem na parte de cima*/
     
 }
 
 
 .caixa {
 
-    margin-top: 20px ;
+    margin-top: 20px ; /*Define o tamanho da margem na parte de cima*/
     border: 1px solid #333; /* Define uma borda sólida de 1 pixel com a cor desejada */
     padding: 10px; /* Adiciona um espaçamento interno para afastar o texto da borda */
     display: inline-block; /* Permite que a caixa se ajuste ao conteúdo e fique em linha */
     margin-left: 250px ; /* Centraliza o cabeçalho na página */
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
-    border-radius: 5px;
-    background-color: #1b4f8f;
-    color: #eee;
+    border-radius: 5px;/*Define o raio da borda*/
+    background-color: #1b4f8f; /*Define a cor de fundo*/
+    color: #eee; /*Define a cor da fonte*/
 }
 
 .caixa h2{
-    color: #fff;
+    color: #fff; /*Define a cor da fonte*/
 }
 
 .container{
-    display: flex;
+    display: flex; /*Definte o container como flexivel*/
     margin-left: 250px ; /* Centraliza o cabeçalho na página */
     margin-right: 250px ; /* Centraliza o cabeçalho na página */
-    background-color: #1b4f8f;
-    color: #eee;
-    border-radius: 10px;
-    padding: 1rem;
+    background-color: #1b4f8f;/*Define a cor de fundo*/
+    color: #eee;/*Define a cor da fonte*/
+    border-radius: 10px;/*Define o raio da borda*/
+    padding: 1rem;/*Define o preenchimento*/
 }
 
 .container h2{
@@ -113,8 +112,8 @@ h1, h2 {
 
 .ilustracao img{
     border-radius: 5px;
-    width: 600px;
-    height: 400px;
+    width: 600px; /*Define a largura*/
+    height: 400px; /*Define a altura*/ 
     
 }
 
